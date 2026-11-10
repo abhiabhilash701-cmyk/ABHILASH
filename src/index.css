@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-chalkboard: #1F6B4A;
+    --color-slate-blue: #3B5A78;
+    --color-ink: #22262B;
+    --color-cream: #FAF6EE;
+    --color-accent: #86B99D;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #FAF6EE;
+    color: #22262B;
+  }
+
+  body {
+    background-color: #FAF6EE;
+    color: #22262B;
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+}
+
+.font-signature {
+  font-family: 'Caveat', cursive;
+}
+
+/* Outline serif text for rich media fallback panels */
+.outline-serif-text {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(250, 246, 238, 0.4);
+}
+
+.outline-serif-text-dark {
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(34, 38, 43, 0.25);
+}
+
+/* Hairline borders */
+.border-hairline-ink {
+  border-color: rgba(34, 38, 43, 0.12);
+}
+
+.border-hairline-cream {
+  border-color: rgba(250, 246, 238, 0.12);
+}
+
+/* Hide scrollbar for clean horizontal mobile swipes */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

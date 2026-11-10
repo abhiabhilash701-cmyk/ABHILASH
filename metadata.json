@@ -1,0 +1,6 @@
+{
+  "name": "Abhilash Math Care",
+  "description": "Every weak chapter found before the student goes quiet. System setup for job aspirant institutes in Kurnool by Abhilash.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
